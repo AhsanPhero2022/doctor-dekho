@@ -47,7 +47,7 @@ const Register = () => {
         {/* category */}
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">
-            Name Abir
+            Name
           </label>
           <input
             type="text"
@@ -56,6 +56,29 @@ const Register = () => {
             placeholder="Name"
           />
         </div>
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">
+            NID Number
+          </label>
+          <input
+            type="text"
+            name="NID"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            placeholder="NID Number"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">
+            License
+          </label>
+          <input
+            type="text"
+            name="license"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            placeholder="License Number"
+          />
+        </div>
+
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Email
@@ -77,6 +100,10 @@ const Register = () => {
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             placeholder="Password"
           />
+        </div>
+        <div className="max-w-md mx-auto ">
+          <input type="file" accept=".pdf" className="border p-2" />
+          <p className="my-2">Selected PDF file:</p>
         </div>
         <div className="flex items-center justify-between">
           <button
