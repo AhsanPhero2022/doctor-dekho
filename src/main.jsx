@@ -14,6 +14,9 @@ import Register from "./components/pages/Register.jsx";
 import Dashboard from "./components/pages/profile/Dashboard.jsx";
 import DoctorProfile from "./components/pages/profile/DoctorProfile.jsx";
 import PatientRegister from "./components/pages/PatientRegister.jsx";
+import Achievement from "./components/pages/profile/Achievement.jsx";
+import Institute from "./components/pages/profile/Institute.jsx";
+import Expertise from "./components/pages/profile/Expertise.jsx";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +64,18 @@ const router = createBrowserRouter([
       {
         path: "doctorProfile",
         element: <DoctorProfile></DoctorProfile>,
+      },
+      {
+        path: "achievement",
+        element: <Achievement></Achievement>,
+      },
+      {
+        path: "institute",
+        element: <Institute>s</Institute>,
+      },
+      {
+        path: "expertise",
+        element: <Expertise></Expertise>,
       },
     ],
   },

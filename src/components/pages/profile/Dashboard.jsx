@@ -23,10 +23,13 @@ const Dashboard = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <a>Sidebar Item 1</a>
+            <Link to="/dashboard/institute">Institute</Link>
           </li>
           <li>
-            <a>Sidebar Item 2</a>
+            <Link to="/dashboard/expertise">Expertise</Link>
+          </li>
+          <li>
+            <Link to="/dashboard/achievement">Achievement</Link>
           </li>
         </ul>
       </div>
