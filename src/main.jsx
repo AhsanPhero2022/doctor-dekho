@@ -17,6 +17,7 @@ import PatientRegister from "./components/pages/PatientRegister.jsx";
 import Achievement from "./components/pages/profile/Achievement.jsx";
 import Institute from "./components/pages/profile/Institute.jsx";
 import Expertise from "./components/pages/profile/Expertise.jsx";
+import SeeDetails from "./components/pages/profile/SeeDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
         path: "/blog",
         element: <Blog></Blog>,
       },
+      {
+        path: "/seeDetails",
+        element: <SeeDetails></SeeDetails>,
+      },
     ],
   },
   {
@@ -76,6 +81,10 @@ const router = createBrowserRouter([
       {
         path: "expertise",
         element: <Expertise></Expertise>,
+      },
+      {
+        path: "seeDetails/:id",
+        element: <SeeDetails></SeeDetails>,
       },
     ],
   },

@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import OurService from "./extra/OurService";
 
 const Home = () => {
   return (
-    <div className="  ">
+    <div>
       <div className="w-1/2 space-y-4 absolute transform  -translate-y-1/3 top-1/2   text-white ">
         <h1 className="text-3xl font-bold ">Doctor Awesh</h1>
         <Link to="/dashboard/doctorProfile">
@@ -23,6 +24,7 @@ const Home = () => {
           alt="image loading"
         />
       </div>
+      <OurService></OurService>
     </div>
   );
 };

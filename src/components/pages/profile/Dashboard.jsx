@@ -17,19 +17,25 @@ const Dashboard = () => {
       </div>
       <div className="drawer-side">
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-        <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+        <ul className=" menu p-4 w-80 min-h-full bg-base-200 text-base-content">
           {/* Sidebar content here */}
-          <li>
+          <li className="mt-3">
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/dashboard/institute">Institute</Link>
+            <Link to="/dashboard/institute">Cardiologist</Link>
           </li>
-          <li>
-            <Link to="/dashboard/expertise">Expertise</Link>
+          <li className="mt-3">
+            <Link to="/dashboard/expertise">Pediatrician</Link>
           </li>
-          <li>
-            <Link to="/dashboard/achievement">Achievement</Link>
+          <li className="mt-3">
+            <Link to="/dashboard/achievement">Orthopedic Surgeon</Link>
+          </li>
+          <li className="mt-3">
+            <Link>Dermatologist</Link>
+          </li>
+          <li className="mt-3">
+            <Link>Neurologist</Link>
           </li>
         </ul>
       </div>

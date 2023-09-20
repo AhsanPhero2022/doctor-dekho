@@ -1,0 +1,62 @@
+[
+  {
+    "status": "online",
+    "name": "Dr. John Smith",
+    "specialist": "Cardiologist",
+    "education": "MD in Cardiology",
+    "image": "https://esf6uiyoh3z.exactdn.com/blog/wp-content/uploads/2022/03/shutterstock_1680655153-1-min-1024x576.png?strip=all&lossy=1&ssl=1",
+    "university": "Harvard Medical School",
+    "rating": 5,
+    "achievement": "Published research on heart health"
+  },
+  {
+    "status": "online",
+    "name": "Dr. Sarah Johnson",
+    "specialist": "Pediatrician",
+    "education": "MD in Pediatrics",
+    "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2022/03/male-doctor-serious-hospital.jpg?quality=82&strip=all",
+    "university": "Stanford School of Medicine",
+    "rating": 4,
+    "achievement": "Recipient of the Best Pediatrician Award"
+  },
+  {
+    "status": "online",
+    "name": "Dr. Michael Brown",
+    "specialist": "Orthopedic Surgeon",
+    "education": "MD in Orthopedics",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Ff3LVLgodukP_Y6GNISSgTqkHSV8mFVb4mU7sHv1l4AWXbxzEUHySk9R0pqtvaK3-VI&usqp=CAU",
+    "rating": 3.5,
+    "university": "Johns Hopkins University School of Medicine",
+    "achievement": "Performed over 500 successful surgeries"
+  },
+  {
+    "status": "offline",
+    "name": "Dr. Emily Davis",
+    "specialist": "Dermatologist",
+    "education": "MD in Dermatology",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3yeFr176zhDLC_Lsn05gPu0ikTMFaS1tvMeAhBlOGcHix_BEV6jh2_gmi_U3_TWkMVU&usqp=CAU",
+    "university": "Columbia University Vagelos College of Physicians and Surgeons",
+    "rating": 4.5,
+    "achievement": "Internationally recognized skincare expert"
+  },
+  {
+    "status": "online",
+    "name": "Dr. David Wilson",
+    "specialist": "Neurologist",
+    "education": "MD in Neurology",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/007/064/975/small/nurse-and-doctor-team-ready-for-work-day-photo.jpg",
+    "university": "Mayo Clinic School of Medicine",
+    "rating": 3,
+    "achievement": "Lead researcher in a breakthrough Alzheimer's study"
+  },
+  {
+    "status": "offline",
+    "name": "Dr. Jennifer Lee",
+    "specialist": "Gynecologist",
+    "education": "MD in Obstetrics and Gynecology",
+    "image": "https://media.istockphoto.com/id/475371436/photo/group-of-doctors.jpg?s=612x612&w=0&k=20&c=7zvOOUL4lVocu-zCtbFqjpx2B-xyM_usAdD15plYImc=",
+    "university": "Yale School of Medicine",
+    "rating": 4,
+    "achievement": "Advocate for women's reproductive health"
+  }
+]
