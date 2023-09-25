@@ -10,6 +10,9 @@ const Home = () => {
         <Link to="/dashboard/doctorProfile">
           <button className="btn btn-success normal-case">Get Started</button>
         </Link>
+        <Link to="/userDashboard/userProfile">
+          <button className="btn btn-success normal-case">User Profile</button>
+        </Link>
         <p className="">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
           repellat eum, excepturi quaerat magni expedita? Accusantium deserunt

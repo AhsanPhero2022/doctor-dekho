@@ -23,13 +23,13 @@ const Dashboard = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="mt-3">
-            <Link to="/dashboard/institute">Cardiologist</Link>
+            <Link>Cardiologist</Link>
           </li>
           <li className="mt-3">
-            <Link to="/dashboard/expertise">Pediatrician</Link>
+            <Link>Pediatrician</Link>
           </li>
           <li className="mt-3">
-            <Link to="/dashboard/achievement">Orthopedic Surgeon</Link>
+            <Link>Orthopedic Surgeon</Link>
           </li>
           <li className="mt-3">
             <Link>Dermatologist</Link>

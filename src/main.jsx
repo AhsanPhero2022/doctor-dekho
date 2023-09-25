@@ -18,7 +18,8 @@ import Achievement from "./components/pages/profile/Achievement.jsx";
 import Institute from "./components/pages/profile/Institute.jsx";
 import Expertise from "./components/pages/profile/Expertise.jsx";
 import SeeDetails from "./components/pages/profile/SeeDetails.jsx";
-
+import UserDashboard from "./components/pages/userProfile/UserDashboard.jsx";
+import UserProfile from "./components/pages/userProfile/UserProfile.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -85,6 +86,16 @@ const router = createBrowserRouter([
       {
         path: "seeDetails/:id",
         element: <SeeDetails></SeeDetails>,
+      },
+    ],
+  },
+  {
+    path: "userDashboard",
+    element: <UserDashboard></UserDashboard>,
+    children: [
+      {
+        path: "userProfile",
+        element: <UserProfile></UserProfile>,
       },
     ],
   },
