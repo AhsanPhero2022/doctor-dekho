@@ -22,21 +22,6 @@ const Dashboard = () => {
           <li className="mt-3">
             <Link to="/">Home</Link>
           </li>
-          <li className="mt-3">
-            <Link>Cardiologist</Link>
-          </li>
-          <li className="mt-3">
-            <Link>Pediatrician</Link>
-          </li>
-          <li className="mt-3">
-            <Link>Orthopedic Surgeon</Link>
-          </li>
-          <li className="mt-3">
-            <Link>Dermatologist</Link>
-          </li>
-          <li className="mt-3">
-            <Link>Neurologist</Link>
-          </li>
         </ul>
       </div>
     </div>

@@ -6,16 +6,6 @@ const DoctorProfile = () => {
   const [profile, setProfile] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // useEffect(() => {
-  //   fetch("https://y-ahsanphero2022.vercel.app/user")
-  //     .then((res) => res.json())
-  //     .then((data) => setProfile(data));
-  //   setLoading(false).catch((error) => {
-  //     console.error("Error fetching data:", error);
-  //     setLoading(false);
-  //   });
-  // }, []);
-
   useEffect(() => {
     fetch("https://y-ahsanphero2022.vercel.app/user")
       .then((res) => res.json())

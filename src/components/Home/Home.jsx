@@ -10,20 +10,27 @@ const Home = () => {
         <Link to="/dashboard/doctorProfile">
           <button className="btn btn-success normal-case">Get Started</button>
         </Link>
-        <Link to="/userDashboard/userProfile">
-          <button className="btn btn-success normal-case">User Profile</button>
+        <Link to="/prDashboard/Profile">
+          <button className="btn btn-success normal-case ms-4">
+            My Profile
+          </button>
         </Link>
-        <p className="">
+        <Link to="/userDashboard/userProfile">
+          <button className="ms-4 btn btn-success normal-case">
+            User Profile
+          </button>
+        </Link>
+        <p className="text-black text-xl ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
           repellat eum, excepturi quaerat magni expedita? Accusantium deserunt
           tempore assumenda modi praesentium! Laboriosam minima non dolorum,
           excepturi ab laborum quaerat dolores!
         </p>
       </div>
-      <div>
+      <div className="">
         <img
-          className="w-full"
-          src="https://img.freepik.com/free-photo/portrait-happy-male-doctor-dressed-uniform_171337-1486.jpg?size=626&ext=jpg"
+          className="w-full "
+          src="https://www.cdc.gov/diabetes/images/library/spotlights/clinic-doctor-image.png?_=45953"
           alt="image loading"
         />
       </div>

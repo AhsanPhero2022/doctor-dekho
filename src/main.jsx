@@ -11,15 +11,20 @@ import Report from "./components/pages/Report.jsx";
 import Feedback from "./components/pages/Feedback.jsx";
 import Blog from "./components/pages/Blog.jsx";
 import Register from "./components/pages/Register.jsx";
-import Dashboard from "./components/pages/profile/Dashboard.jsx";
-import DoctorProfile from "./components/pages/profile/DoctorProfile.jsx";
+
 import PatientRegister from "./components/pages/PatientRegister.jsx";
-import Achievement from "./components/pages/profile/Achievement.jsx";
-import Institute from "./components/pages/profile/Institute.jsx";
-import Expertise from "./components/pages/profile/Expertise.jsx";
-import SeeDetails from "./components/pages/profile/SeeDetails.jsx";
+
 import UserDashboard from "./components/pages/userProfile/UserDashboard.jsx";
 import UserProfile from "./components/pages/userProfile/UserProfile.jsx";
+import PrDashboard from "./components/pages/doctorProfile/PrDashboard.jsx";
+import Profile from "./components/pages/doctorProfile/Profile.jsx";
+import Dashboard from "./components/pages/allDoctors/Dashboard.jsx";
+import Achievement from "./components/pages/allDoctors/Achievement.jsx";
+import SeeDetails from "./components/pages/allDoctors/SeeDetails.jsx";
+import Expertise from "./components/pages/allDoctors/Expertise.jsx";
+import Institute from "./components/pages/allDoctors/Institute.jsx";
+import DoctorProfile from "./components/pages/allDoctors/DoctorProfile.jsx";
+import ProfileEditing from "./components/Home/extra/ProfileEditing.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -61,6 +66,10 @@ const router = createBrowserRouter([
         path: "/seeDetails",
         element: <SeeDetails></SeeDetails>,
       },
+      {
+        path: "/profileEditing",
+        element: <ProfileEditing></ProfileEditing>,
+      },
     ],
   },
   {
@@ -96,6 +105,16 @@ const router = createBrowserRouter([
       {
         path: "userProfile",
         element: <UserProfile></UserProfile>,
+      },
+    ],
+  },
+  {
+    path: "prDashboard",
+    element: <PrDashboard></PrDashboard>,
+    children: [
+      {
+        path: "profile",
+        element: <Profile></Profile>,
       },
     ],
   },
